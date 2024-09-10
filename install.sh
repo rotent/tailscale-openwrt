@@ -71,6 +71,14 @@ download_success=false
 # 代理列表
 proxy_zip_urls="
 https://raw.githubusercontent.com/rotent/tailscale-openwrt/chinese_mainland/tailscale-openwrt.tgz
+https://raw.githubusercontent.com/rotent/tailscale-openwrt/chinese_mainland/tailscale-openwrt.tgz
+https://ghproxy.net/https://raw.githubusercontent.com/rotent/tailscale-openwrt/chinese_mainland/tailscale-openwrt.tgz
+https://fastly.jsdelivr.net/gh/rotent/tailscale-openwrt@chinese_mainland/tailscale-openwrt.tgz
+https://gcore.jsdelivr.net/gh/rotent/tailscale-openwrt@chinese_mainland/tailscale-openwrt.tgz
+https://jsdelivr.b-cdn.net/gh/rotent/tailscale-openwrt@chinese_mainland/tailscale-openwrt.tgz
+https://mirror.ghproxy.com/https://raw.githubusercontent.com/rotent/tailscale-openwrt/chinese_mainland/tailscale-openwrt.tgz
+https://raw.fgit.cf/rotent/tailscale-openwrt/chinese_mainland/tailscale-openwrt.tgz
+"
 "
 
 for proxy_zip_url in $proxy_zip_urls; do
