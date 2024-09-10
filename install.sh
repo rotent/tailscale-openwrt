@@ -79,7 +79,6 @@ https://jsdelivr.b-cdn.net/gh/rotent/tailscale-openwrt@chinese_mainland/tailscal
 https://mirror.ghproxy.com/https://raw.githubusercontent.com/rotent/tailscale-openwrt/chinese_mainland/tailscale-openwrt.tgz
 https://raw.fgit.cf/rotent/tailscale-openwrt/chinese_mainland/tailscale-openwrt.tgz
 "
-"
 
 for proxy_zip_url in $proxy_zip_urls; do
     if timeout $timeout_seconds wget -q $proxy_zip_url -O - | tar x -zvC / -f - > /dev/null 2>&1; then
